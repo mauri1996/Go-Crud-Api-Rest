@@ -1,0 +1,7 @@
+//Instalacion de mux NECESARIA
+
+https://pkg.go.dev/github.com/gorilla/mux#readme-install
+https://github.com/gorilla/mux
+go install github.com/gorilla/mux@latest
+
+Alt + 96 ``

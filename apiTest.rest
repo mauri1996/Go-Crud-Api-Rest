@@ -1,0 +1,29 @@
+
+// Obtener todos los datos del servidor (1)
+GET http://localhost:3000/people HTTP/1.1
+content-type: application/json
+
+###
+// Obtener 1 dato del servidor (2)
+GET http://localhost:3000/people/2 HTTP/1.1
+content-type: application/json
+
+###
+// Obtener 1 dato vacio del servidor (2)
+GET http://localhost:3000/people/5
+content-type: application/json
+
+###
+// Crear una nueva persona (3)
+POST http://localhost:3000/people/6
+content-type: application/json
+
+{    
+    "firstname": "enviadTest",
+    "lastaname": "testTest"
+}
+
+###
+// Obtener 1 dato vacio del servidor (4)
+DELETE http://localhost:3000/people/6
+content-type: application/json
