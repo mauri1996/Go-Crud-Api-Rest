@@ -5,3 +5,10 @@ https://github.com/gorilla/mux
 go install github.com/gorilla/mux@latest
 
 Alt + 96 ``
+
+
+// run docker build
+docker build -t golang-app-api .
+
+// correr el docker y cuando se termine lo elimina
+docker run -it -dp 3000:3000 --rm --name golang-api-test golang-app-api
